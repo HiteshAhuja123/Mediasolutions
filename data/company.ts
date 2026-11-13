@@ -13,8 +13,8 @@ export const company = {
     'An integrated marketing communications company connecting brands with audiences through impactful advertising and media solutions.',
 
   // ⚠️  PLACEHOLDER — Replace with actual contact numbers before launch
-  phone: '', // e.g. '+91 98765 43210'
-  whatsapp: '', // e.g. '+91 98765 43210'
+  phone: '' as string, // e.g. '+91 98765 43210'
+  whatsapp: '' as string, // e.g. '+91 98765 43210'
 
   email: {
     primary: 'info@mediasolutions.com',
