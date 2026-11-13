@@ -7,19 +7,19 @@ import styles from './Hero.module.css';
 
 const bgPanels = [
   {
-    src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85',
+    src: '/images/stock/photo-1558618666-fcd25c85cd64.jpg',
     alt: 'Large-format outdoor billboard advertising campaign',
   },
   {
-    src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=85',
+    src: '/images/stock/photo-1540575467063-178a50c2df87.jpg',
     alt: 'Brand activation and experiential marketing event',
   },
   {
-    src: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=85',
+    src: '/images/stock/photo-1486325212027-8081e485255e.jpg',
     alt: 'City street advertising and outdoor media',
   },
   {
-    src: 'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=85',
+    src: '/images/stock/photo-1555529669-e69e7aa0ba9a.jpg',
     alt: 'Digital out-of-home advertising screens',
   },
 ];

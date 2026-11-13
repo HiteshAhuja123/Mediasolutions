@@ -6,23 +6,23 @@ import styles from './Services.module.css';
 // Unsplash images per service (placeholder, to be replaced with real campaign work)
 const serviceImages: Record<string, string> = {
   'ooh-advertising':
-    'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80',
+    '/images/stock/photo-1558618666-fcd25c85cd64.jpg',
   'dooh-advertising':
-    'https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=80',
+    '/images/stock/photo-1555529669-e69e7aa0ba9a.jpg',
   'cinema-advertising':
-    'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&q=80',
+    '/images/stock/photo-1517604931442-7e0c8ed2963c.jpg',
   'television-advertising':
-    'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&q=80',
+    '/images/stock/photo-1593784991095-a205069470b6.jpg',
   'print-advertising':
-    'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80',
+    '/images/stock/photo-1504711434969-e33886168f5c.jpg',
   'btl-marketing':
-    'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
+    '/images/stock/photo-1540575467063-178a50c2df87.jpg',
   'digital-marketing':
-    'https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80',
+    '/images/stock/photo-1432888498266-38ffec3eaf0a.jpg',
   'event-management':
-    'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80',
+    '/images/stock/photo-1492684223066-81342ee5ff30.jpg',
   'brand-technology':
-    'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
+    '/images/stock/photo-1518770660439-4636190af475.jpg',
 };
 
 export default function Services() {

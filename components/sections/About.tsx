@@ -56,7 +56,7 @@ export default function About() {
 
               <div className={styles.imagePrimary}>
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+                  src="/images/stock/photo-1507003211169-0a1dd7228f2d.jpg"
                   alt="Advertising professionals at work in a creative agency environment"
                   fill
                   sizes="(max-width: 1024px) 90vw, 45vw"
@@ -66,7 +66,7 @@ export default function About() {
 
               <div className={styles.imageSecondary}>
                 <Image
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80"
+                  src="/images/stock/photo-1522202176988-66273c2fd55f.jpg"
                   alt="Marketing team collaborating on a campaign strategy"
                   fill
                   sizes="(max-width: 1024px) 50vw, 25vw"
