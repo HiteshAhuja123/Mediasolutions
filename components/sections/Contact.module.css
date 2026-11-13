@@ -1,0 +1,296 @@
+/* ============================================================
+   CONTACT SECTION
+   ============================================================ */
+
+.contact {
+  padding: clamp(var(--space-20), 10vw, var(--space-32)) 0;
+  background: var(--color-white);
+}
+
+.sectionHeader {
+  margin-bottom: clamp(var(--space-12), 6vw, var(--space-20));
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.eyebrowLine {
+  width: 32px;
+  height: 1px;
+  background: var(--color-orange);
+  flex-shrink: 0;
+}
+
+.eyebrowText {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-orange);
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  color: var(--color-charcoal);
+  line-height: 1.1;
+}
+
+/* Two-column layout */
+.grid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: clamp(var(--space-12), 6vw, var(--space-24));
+}
+
+/* Info column */
+.infoCol {}
+
+.infoItem {
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-8);
+  border-bottom: 1px solid var(--color-grey-200);
+}
+
+.infoItem:last-of-type {
+  border-bottom: none;
+}
+
+.infoLabel {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-orange);
+  margin-bottom: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.infoValue {
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--color-grey-700);
+}
+
+.infoLink {
+  display: block;
+  font-size: 0.9375rem;
+  color: var(--color-grey-700);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.infoLink:hover {
+  color: var(--color-orange);
+}
+
+.placeholderInfo {
+  font-size: 0.875rem;
+  color: var(--color-grey-400);
+  font-style: italic;
+}
+
+/* WhatsApp CTA */
+.whatsappCta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: #25D366;
+  padding: var(--space-3) var(--space-6);
+  border: none;
+  text-decoration: none;
+  transition: background var(--duration-fast) var(--ease-out);
+  margin-top: var(--space-4);
+}
+
+.whatsappCta:hover {
+  background: #1da851;
+}
+
+/* Map embed */
+.mapWrapper {
+  margin-top: var(--space-8);
+  overflow: hidden;
+  border: 1px solid var(--color-grey-200);
+}
+
+.mapWrapper iframe {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border: none;
+}
+
+/* Form column */
+.formCol {}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-5);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-grey-700);
+}
+
+.required {
+  color: var(--color-orange);
+  margin-left: 2px;
+}
+
+.input,
+.select,
+.textarea {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  color: var(--color-charcoal);
+  background: var(--color-grey-100);
+  border: 1px solid var(--color-grey-200);
+  padding: var(--space-3) var(--space-4);
+  width: 100%;
+  transition: border-color var(--duration-fast) var(--ease-out),
+    background var(--duration-fast) var(--ease-out);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  border-color: var(--color-orange);
+  background: var(--color-white);
+}
+
+.input.error,
+.select.error,
+.textarea.error {
+  border-color: #dc2626;
+}
+
+.select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23706a62' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-4) center;
+  padding-right: var(--space-10);
+  cursor: pointer;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.errorMsg {
+  font-size: 0.75rem;
+  color: #dc2626;
+  margin-top: var(--space-1);
+}
+
+/* Submit button */
+.submitBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background: var(--color-orange);
+  padding: var(--space-4) var(--space-10);
+  border: 1px solid var(--color-orange);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-out),
+    gap var(--duration-fast) var(--ease-out);
+  width: 100%;
+}
+
+.submitBtn:hover:not(:disabled) {
+  background: var(--color-orange-dark);
+  border-color: var(--color-orange-dark);
+  gap: var(--space-5);
+}
+
+.submitBtn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* Status messages */
+.successMsg {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #15803d;
+  padding: var(--space-4) var(--space-5);
+  font-size: 0.9375rem;
+}
+
+.errorMsgGlobal {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: var(--space-4) var(--space-5);
+  font-size: 0.9375rem;
+}
+
+.backendNote {
+  font-size: 0.75rem;
+  color: var(--color-grey-400);
+  font-style: italic;
+  text-align: center;
+  padding: var(--space-4);
+  border: 1px dashed var(--color-grey-300);
+  background: var(--color-grey-100);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+  }
+}
+
+@media (max-width: 640px) {
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+}
+
